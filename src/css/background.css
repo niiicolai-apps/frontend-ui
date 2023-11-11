@@ -1,0 +1,43 @@
+.bg-primary { background-color: var(--primary); }
+.bg-primary-hover:hover { background-color: var(--primary-hover); }
+.bg-primary-dark { background-color: var(--primary-dark); }
+
+.bg-secondary { background-color: var(--secondary); }
+.bg-secondary-hover:hover { background-color: var(--secondary-hover); }
+.bg-secondary-dark { background-color: var(--secondary-dark); }
+
+.bg-success { background-color: var(--success); }
+.bg-success-hover:hover { background-color: var(--success-hover); }
+.bg-success-dark { background-color: var(--success-dark); }
+
+.bg-danger { background-color: var(--danger); }
+.bg-danger-hover:hover { background-color: var(--danger-hover); }
+.bg-danger-dark { background-color: var(--danger-dark); }
+
+.bg-warning { background-color: var(--warning); }
+.bg-warning-hover:hover { background-color: var(--warning-hover); }
+.bg-warning-dark { background-color: var(--warning-dark); }
+
+.bg-info { background-color: var(--info); }
+.bg-info-hover:hover { background-color: var(--info-hover); }
+.bg-info-dark { background-color: var(--info-dark); }
+
+.bg-white { background-color: var(--white); }
+.bg-white-hover:hover { background-color: var(--white-hover); }
+.bg-white-dark { background-color: var(--white-dark); }
+
+.bg-black { background-color: var(--black); }
+.bg-black-hover:hover { background-color: var(--black-hover); }
+.bg-black-dark { background-color: var(--black-dark); }
+
+.bg-light { background-color: var(--light); }
+.bg-light-hover:hover { background-color: var(--light-hover); }
+.bg-light-dark { background-color: var(--light-dark); }
+
+.bg-dark { background-color: var(--dark); }
+.bg-dark-hover:hover { background-color: var(--dark-hover); }
+.bg-dark-dark { background-color: var(--dark-dark); }
+
+.bg-transparent { background-color: transparent; }
+.bg-transparent-hover:hover { background-color: var(--transparent-hover); }
+.bg-transparent-dark { background-color: var(--transparent-dark); }
