@@ -1,7 +1,7 @@
 <template>
-    <p class="text-md">
+    <label class="text-md font-bold mb-3 block">
         <slot></slot>
-    </p>
+    </label>
 </template>
 
 <script setup>

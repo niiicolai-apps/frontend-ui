@@ -1,6 +1,9 @@
 <script setup>
 import UI from '../../index.js';
 import CodeExample from '../internal/CodeExample.vue';
+import { ref } from 'vue';
+
+const show = ref(false);
 </script>
 
 <template>
@@ -91,6 +94,45 @@ import CodeExample from '../internal/CodeExample.vue';
                 &lt;span&gt;Footer&lt;/span&gt;
             &lt;/template&gt;
         &lt;/UI.Card&gt;
+      </template>
+    </CodeExample>
+
+    <CodeExample>
+      <template #example>
+        <UI.Button type="primary" @click="show = !show">
+            Show Panel
+        </UI.Button>
+
+        <UI.Panel transition_name="slide-left" :show="show">
+            <div class="bg-secondary rounded p-5">
+                <UI.Title class="mb-5">Header</UI.Title>
+                <UI.Paragraph class="mb-5">Body</UI.Paragraph>
+                <UI.Button type="primary" @click="show = !show">
+                    Hide Panel
+                </UI.Button>
+            </div>
+        </UI.Panel>
+      </template>
+
+      <template #options>
+        <li class="flex gap-1">
+            <span class="font-bold">transition_name:</span>
+            <span>fade | slide-left | slide-right | slide-up | slide-down</span>
+        </li>
+        <li class="flex gap-1">
+            <span class="font-bold">show:</span>
+            <span>true | false</span>
+        </li>
+        <li class="flex gap-1">
+            <span class="font-bold">hideBackground:</span>
+            <span>true | false</span>
+        </li>
+      </template>
+
+      <template #code>
+        &lt;UI.Panel transition_name="slide-left" :show="true"&gt;
+            Panel
+        &lt;/UI.Panel&gt;
       </template>
     </CodeExample>
 </template>

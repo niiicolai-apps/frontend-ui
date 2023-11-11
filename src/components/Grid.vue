@@ -3,7 +3,7 @@
         :class="`
             grid-rows-${rows}
             grid-cols-${columns} 
-            mb-${vertical_space} 
+            mb-${mb} 
             gap-${gap}`"
     >
         <slot></slot>

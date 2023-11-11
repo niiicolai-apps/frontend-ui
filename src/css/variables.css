@@ -41,4 +41,7 @@
 
     --transparent-hover: rgba(0, 0, 0, 0.05);
     --transparent-dark: rgba(0, 0, 0, 0.1);
+
+    --shadow: rgba(0, 0, 0, 0.05);
+    --shadow-dark: rgba(0, 0, 0, 0.1);
 }
