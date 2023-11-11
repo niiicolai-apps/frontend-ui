@@ -37,5 +37,5 @@ npm update niiicolai-apps/frontend-ui
 ```
 
 ## 2. Import variables
-Import https://github.com/niiicolai-apps/frontend-ui/src/css/variables.css to add color theme, etc.
+Import https://github.com/niiicolai-apps/frontend-ui/blob/main/src/css/variables.css to add color theme, etc.
 
