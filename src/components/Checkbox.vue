@@ -61,17 +61,17 @@ const iconSizes = {
 }
 
 const btnSizes = {
-    '3xs': 'h-4 w-4',
-    '2xs': 'h-5 w-5',
-    xs: 'h-6 w-6',
-    sm: 'h-7 w-7',
-    md: 'h-8 w-8',
-    lg: 'h-9 w-9',
-    xl: 'h-10 w-10',
-    '2xl': 'h-11 w-11',
-    '3xl': 'h-12 w-12',
-    '4xl': 'h-14 w-14',
-    '5xl': 'h-16 w-16',
+    '3xs': 'h-4 w-5',
+    '2xs': 'h-5 w-6',
+    xs: 'h-6 w-7',
+    sm: 'h-7 w-8',
+    md: 'h-8 w-9',
+    lg: 'h-9 w-10',
+    xl: 'h-10 w-11',
+    '2xl': 'h-11 w-12',
+    '3xl': 'h-12 w-13',
+    '4xl': 'h-14 w-15',
+    '5xl': 'h-16 w-17',
 }
 
 const bgg = {

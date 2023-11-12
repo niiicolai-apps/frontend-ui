@@ -8,9 +8,9 @@
 
     <router-link
         v-else
-        :link="to"
+        :to="link"
         :target="target"
-        class="border-none rounded px-3 py-2 cursor-pointer"
+        class="border-none rounded px-3 py-2 cursor-pointer no-underline"
         :class="`btn ${bg[type]} ${text[type]}`">
         <slot></slot>
     </router-link>
@@ -64,23 +64,23 @@ const text = {
 </script>
 
 <style scoped>
-button.btn {
+.btn {
     transition: all 0.2s ease-in-out;
 }
 
-button.btn:hover {
+.btn:hover {
     transform: scale(1.05);
 }
 
-button.btn:focus {
+.btn:focus {
     outline: none;
 }
 
-button.btn:active {
+.btn:active {
     transform: scale(0.95);
 }
 
-button.btn:disabled {
+.btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }

@@ -34,3 +34,11 @@
 .text-light { color: var(--light); }
 .text-dark { color: var(--dark); }
 .text-transparent { color: transparent; }
+
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+.line-through { text-decoration: line-through; }
+.no-underline { text-decoration: none; }
