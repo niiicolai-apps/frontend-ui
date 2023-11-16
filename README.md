@@ -26,9 +26,9 @@ $ npm run dev
 
 ## 1. Install
 ### Install in other projects
-Remember to replace `#1.0.0` with the needed version.
+Remember to replace `#v1.0.0` with the needed version.
 ```bash
-npm install --save niiicolai-apps/frontend-ui#1.0.0
+npm install --save niiicolai-apps/frontend-ui#v1.0.0
 ```
 
 ### Update in other projects
