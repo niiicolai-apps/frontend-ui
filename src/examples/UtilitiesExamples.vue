@@ -9,7 +9,17 @@ const show = ref(false);
 <template>
     <CodeExample>
       <template #example>
-        <UI.ProgressBar :progress="30" :max-progress="100" />
+        <UI.ProgressBar :progress="32.333" :max-progress="100" class="mb-3" />
+        
+        <UI.ProgressBar 
+          :progress="30" 
+          :max-progress="100" 
+          :showPercent="false"
+        >
+          <UI.Paragraph class="font-bold">
+            Level 30
+          </UI.Paragraph>
+        </UI.ProgressBar>
       </template>
 
       <template #options>

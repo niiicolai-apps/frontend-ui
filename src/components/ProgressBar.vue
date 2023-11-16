@@ -6,7 +6,8 @@
     `">
         <div class="absolute left-0 top-0 bottom-0" :class="bar_color" :style="{ width }" />
         <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center" :class="color">
-            <span class="font-bold">{{ percent }}%</span>
+            <span class="font-bold" v-if="showPercent">{{ percent }}%</span>
+            <slot />
         </div>
     </div>
 </template>
@@ -22,6 +23,11 @@ const props = defineProps({
         type: Number,
         required: false,
         default: 100
+    },
+    showPercent: {
+        type: Boolean,
+        required: false,
+        default: true
     },
     bg_color: {
         type: String,
@@ -51,7 +57,7 @@ const props = defineProps({
 })
 
 const percent = computed(() => {
-    return (props.progress / props.maxProgress) * 100
+    return parseInt((props.progress / props.maxProgress) * 100)
 })
 
 const width = computed(() => {
